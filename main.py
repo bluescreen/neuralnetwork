@@ -5,7 +5,7 @@ input_nodes = 784
 hidden_nodes = 200
 output_nodes = 10
 learning_rate = 0.1
-max_train = 1000
+max_train = 10000
 epochs = 3
 
 network = NeuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
